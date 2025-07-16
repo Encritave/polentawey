@@ -17,7 +17,7 @@ lock = threading.Lock()
 
 # 🔍 Escaneo de puertos
 def scan_ports(ip):
-    common_ports = [22, 53, 80, 443, 8080, 8000, 8443]
+    common_ports = [22, 53]
     print(f"🔍 Escaneando puertos comunes en {ip}...")
     for port in common_ports:
         try:
